@@ -136,13 +136,3 @@ public class program {
     }
 }
 // Program not yet done
-class abc{
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        String name;
-        name = in.nextLine();
-        switch(name.toLowerCase()){
-
-        }
-    }
-}
