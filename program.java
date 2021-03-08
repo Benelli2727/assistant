@@ -286,6 +286,12 @@ public class program {
             case "make me a coffee":
                 System.out.println("Sure making you a coffee");
                 break;
+                case "call":
+                System.out.println("Whom do you want to call");
+                String call;
+                call = in.nextLine();
+                System.out.println("Sure calling "+call);
+                break;
             default:
                 System.out.println("How can I help you");
         }
